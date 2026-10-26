@@ -1,0 +1,10 @@
+{
+  "name": "job-agent",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ping": "node --env-file=.env day1/ping.mjs",
+    "day1": "node --env-file=.env day1/agent.mjs"
+  }
+}
