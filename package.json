@@ -8,6 +8,18 @@
   },
   "scripts": {
     "ping": "node --env-file=.env day1/ping.mjs",
-    "day1": "node --env-file=.env day1/agent.ts"
+    "day1": "node --env-file=.env day1/agent.ts",
+    "ingest": "node ingest/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "mammoth": "^1.13.0",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/turndown": "^5.0.6",
+    "typescript": "^7.0.2"
   }
 }

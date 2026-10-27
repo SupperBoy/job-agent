@@ -2,3 +2,12 @@
 node_modules/
 *.log
 *.jsonl
+
+# 本地调试产物：trace 和响应 dump 一律不进仓库
+day*/trace*
+day*/data.json
+
+# 个人隐私：真实简历与解析产物，绝不提交
+resume.docx
+resume.pdf
+data/
